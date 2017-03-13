@@ -2,6 +2,7 @@ module RubyInstaller
 module Build
   autoload :Colors, 'ruby_installer/build/colors'
   autoload :DllDirectory, 'ruby_installer/build/dll_directory'
+  autoload :EncodingSupport, 'ruby_installer/build/encoding_support'
   autoload :ErbCompiler, 'ruby_installer/build/erb_compiler'
   autoload :Gems, 'ruby_installer/build/gems'
   autoload :Msys2Installation, 'ruby_installer/build/msys2_installation'
